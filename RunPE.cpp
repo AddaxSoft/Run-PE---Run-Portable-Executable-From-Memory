@@ -1,7 +1,11 @@
+/*
+	make sure to compile on win32 (not x64)
+*/	
+
 
 #include <iostream> // Standard C++ library for console I/O
 #include <string> // Standard C++ Library for string manip
-
+#include <fstram> // for file streams
 #include <Windows.h> // WinAPI Header
 #include <TlHelp32.h> //WinAPI Process API
 
